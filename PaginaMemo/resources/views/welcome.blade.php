@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Qué Rayos?
+                    Laravel
                 </div>
 
                 <div class="links">
