@@ -46,7 +46,8 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 100px;
+                color: #665500;
             }
 
             .links > a {
@@ -69,17 +70,17 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">Inicio</a>
                     @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
+                        <a href="{{ route('login') }}">Inicia Sesión</a>
+                        <a href="{{ route('register') }}">Registrate</a>
                     @endauth
                 </div>
             @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Memo Torrijos
                 </div>
 
                 <div class="links">
