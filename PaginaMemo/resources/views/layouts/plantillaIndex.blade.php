@@ -2,6 +2,8 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>@yield('title')</title>
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
@@ -19,7 +21,7 @@
 
   </head>
   <body>
-<div class="container-fluid">
+<div class="container-fluid"  style="Margin:0px;padding:0px">
 	<div class="row">
 		<div class="col-md-12">
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -94,22 +96,22 @@
 
   <div class="row">
 
-      <div  class="col-sm-6  text-center" style="padding:80px;">
-        <h1>ALGUNAS PALABRAS SOBRE</h1>
-        <h1>GUILLERMO TORRIJOS</h1>
+      <div  class="col-sm-12 col-md-6 col-lg-6 text-center" style="padding:80px;">
+        <h1 class="display-4">ALGUNAS PALABRAS SOBRE</h1>
+        <h1 class="display-4">GUILLERMO TORRIJOS</h1>
         <p>
             Texo textoTexo texto Texo texto Texo texto Texo texto Texo texto Texo texto
         </p>
       </div>
-      <div  class="col-sm-6">
-        <img src="img_avatar1.png" class="float-left" style="width:100%; ">
+      <div  class="col-sm-12 col-md-6 col-lg-6 ">
+        <img src="img_avatar1.png" class="float-right" style="width:100%; ">
       </div>
   </div>
   <div class="row" style="padding:100px;background-image: url('fondo.jpg');" >
     <div  class="col-sm-12  text-center" style="padding:10px;">
       <h1 style="color:white;Margin-bottom:40px;">SOME CLIENTS STORIES</h1>
     </div>
-    <div  class="col-sm-3">
+    <div  class="col-sm-12 col-md-6 col-lg-3 " style="padding:10px;">
       <div class="card" >
         <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
         <div class="card-body">
@@ -118,7 +120,7 @@
         </div>
       </div>
     </div>
-    <div  class="col-sm-3">
+    <div  class="col-sm-12 col-md-6 col-lg-3 " style="padding:10px;">
       <div class="card" >
         <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
         <div class="card-body">
@@ -127,7 +129,7 @@
         </div>
       </div>
     </div>
-    <div  class="col-sm-3">
+    <div  class="col-sm-12 col-md-6 col-lg-3" style="padding:10px;">
       <div class="card" >
         <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
         <div class="card-body">
@@ -136,7 +138,7 @@
         </div>
       </div>
     </div>
-    <div  class="col-sm-3">
+    <div  class="col-sm-12 col-md-6 col-lg-3" style="padding:10px;">
       <div class="card" >
         <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
         <div class="card-body">
