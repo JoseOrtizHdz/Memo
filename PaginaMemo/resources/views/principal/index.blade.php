@@ -1,5 +1,5 @@
 @extends('layouts.plantillaIndex')
-@section('title','Home')
+@section('title','Memo Torrijos')
 @section('content')
 
 
