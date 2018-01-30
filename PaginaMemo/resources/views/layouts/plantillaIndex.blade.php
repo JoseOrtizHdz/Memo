@@ -27,25 +27,33 @@
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
        <!-- Brand -->
        <a class="navbar-brand" href="#">Memo Torrijos</a>
+       <div class="navbar-header">
 
-       <!-- Links -->
-       <ul class="navbar-nav">
-         <li class="nav-item">
-           <a class="nav-link" href="#">¿Quien soy?</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="#">Cursos</a>
-         </li>
-         <!-- Dropdown -->
-         <li class="nav-item dropdown">
-           <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-             Sesion
-           </a>
-           <div class="dropdown-menu">
-             <a class="dropdown-item" href="#">Login</a>
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              	&#9776;
+              	</button>
+                <!--<a class="navbar-brand" href="#">Inicio</a>-->
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <!-- Links -->
+             <ul class="navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link" href="#">¿Quien soy?</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Cursos</a>
+               </li>
+               <!-- Dropdown -->
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                   Sesion
+                 </a>
+                 <div class="dropdown-menu">
+                   <a class="dropdown-item" href="#">Login</a>
+                 </div>
+               </li>
+             </ul>
            </div>
-         </li>
-       </ul>
       </nav>
     </div>
   </div>
