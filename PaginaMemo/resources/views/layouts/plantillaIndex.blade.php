@@ -24,7 +24,7 @@
 <div class="container-fluid"  style="Margin:0px;padding:0px">
 	<div class="row">
 		<div class="col-md-12">
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:rgb(144, 10, 22)">
        <!-- Brand -->
        <a class="navbar-brand" href="#">Memo Torrijos</a>
        <div class="navbar-header">
@@ -34,9 +34,9 @@
               	</button>
                 <!--<a class="navbar-brand" href="#">Inicio</a>-->
       </div>
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
              <!-- Links -->
-             <ul class="navbar-nav">
+             <ul class="navbar-nav ">
                <li class="nav-item">
                  <a class="nav-link" href="#">¿Quien soy?</a>
                </li>
