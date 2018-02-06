@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'MemoTorrijos'),
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        MemoTorrijos\Providers\AppServiceProvider::class,
+        MemoTorrijos\Providers\AuthServiceProvider::class,
+        // MemoTorrijos\Providers\BroadcastServiceProvider::class,
+        MemoTorrijos\Providers\EventServiceProvider::class,
+        MemoTorrijos\Providers\RouteServiceProvider::class,
 
     ],
 
