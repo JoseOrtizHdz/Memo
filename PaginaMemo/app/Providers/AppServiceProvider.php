@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace MemoTorrijos\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
