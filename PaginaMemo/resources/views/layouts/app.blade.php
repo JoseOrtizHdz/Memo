@@ -15,7 +15,8 @@
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!--  <nav class="navbar navbar-expand-lg navbar-light bg-light">-->
+    <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:rgb(144, 10, 22)">
         <div class="container">
           <a class="navbar-brand" href="{{ url('/') }}">
               {{ config('app.name', 'Memo Torrijos') }}
