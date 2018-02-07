@@ -21,10 +21,9 @@
 
   </head>
   <body>
-<div class="container-fluid"  style="Margin:0px;padding:0px">
-	<div class="row">
-		<div class="col-md-12">
+  <div id="app">
       <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:rgb(144, 10, 22)">
+        <div class="container">
        <!-- Brand -->
        <a class="navbar-brand"  href="{{ url('/') }}">Memo Torrijos</a>
        <div class="navbar-header">
@@ -34,11 +33,11 @@
               	</button>
                 <!--<a class="navbar-brand" href="#">Inicio</a>-->
       </div>
-      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse justify-content-end " id="bs-example-navbar-collapse-1">
              <!-- Links -->
              <ul class="navbar-nav ">
                <li class="nav-item">
-                 <a class="nav-link" href="#">¿Quien soy?</a>
+                 <a class="nav-link" href="{{ url('/quiensoy') }}">¿Quien soy?</a>
                </li>
                <li class="nav-item">
                  <a class="nav-link" href="{{ url('/cursos') }}">Cursos</a>
@@ -54,18 +53,11 @@
                </li>
              </ul>
            </div>
+         </div>
       </nav>
-    </div>
-  </div>
 
     @yield('content')
-
-
-
 </div>
-
-
-
 
     <script src="{{asset('js/app.js')}}"></script>
     <script src="{{asset('js/jquery.min.js')}}"></script>

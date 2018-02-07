@@ -16,6 +16,8 @@ Route::get('/', function () {
 });
 Route::get('index', 'Desktop\IndexController@index');
 Route::get('cursos', 'Desktop\IndexController@cursos');
+Route::get('quiensoy', 'Desktop\IndexController@quiensoy');
+
 
 Auth::routes();
 

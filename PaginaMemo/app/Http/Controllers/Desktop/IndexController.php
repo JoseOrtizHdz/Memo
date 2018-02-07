@@ -17,5 +17,9 @@ class IndexController extends Controller
     {
       return view('principal/cursos');
     }
+    public function quiensoy()
+    {
+      return view('principal/quiensoy');
+    }
 
 }
