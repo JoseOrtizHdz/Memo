@@ -1,5 +1,6 @@
 @extends('layouts.plantillaIndex')
 @section('title','Memo Torrijos')
+
 @section('content')
 
 <div class="row">

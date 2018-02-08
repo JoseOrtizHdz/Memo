@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" >
-
+    <link href="{{asset('css/EstilosMenu.css')}}" rel="stylesheet"/>
 <style>
 /* Make the image fully responsive */
 .carousel-inner img {
@@ -27,7 +27,7 @@
   </head>
   <body>
   <div id="app">
-      <nav class="navbar navbar-expand-sm navbar-dark color-menu">
+      <nav class="navbar navbar-expand-sm navbar-dark  color-menu1 ">
         <div class="container">
        <!-- Brand -->
        <a class="navbar-brand"  href="{{ url('/') }}">MemoTorrijos</a>
