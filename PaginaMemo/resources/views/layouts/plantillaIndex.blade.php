@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" >
 
 <style>
 /* Make the image fully responsive */
@@ -16,13 +16,18 @@
     width: 100%;
     height: 100%;
 }
+
+.color-menu{
+  background-color:rgb(144, 10, 22);
+}
+
 </style>
 
 
   </head>
   <body>
   <div id="app">
-      <nav class="navbar navbar-expand-sm navbar-dark" style="background-color:rgb(144, 10, 22)">
+      <nav class="navbar navbar-expand-sm navbar-dark color-menu">
         <div class="container">
        <!-- Brand -->
        <a class="navbar-brand"  href="{{ url('/') }}">Memo Torrijos</a>
@@ -35,7 +40,7 @@
       </div>
       <div class="collapse navbar-collapse justify-content-end " id="bs-example-navbar-collapse-1">
              <!-- Links -->
-             <ul class="navbar-nav ">
+             <ul class="navbar-nav">
                <li class="nav-item">
                  <a class="nav-link" href="{{ url('/quiensoy') }}">¿Quien soy?</a>
                </li>
