@@ -10,24 +10,11 @@
     <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}" >
     <link href="{{asset('css/EstilosMenu.css')}}" rel="stylesheet"/>
-<style>
-/* Make the image fully responsive */
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
-
-.color-menu{
-  background-color:rgb(144, 10, 22);
-}
-
-</style>
-
 
   </head>
-  <body>
+  <body class="background">
   <div id="app">
-      <nav class="navbar navbar-expand-sm navbar-dark  color-menu1 ">
+      <nav class="navbar navbar-expand-sm navbar-dark  color-menu ">
         <div class="container">
        <!-- Brand -->
        <a class="navbar-brand"  href="{{ url('/') }}">MemoTorrijos</a>

@@ -13,21 +13,21 @@
 </ul>
 <div class="carousel-inner">
   <div class="carousel-item active">
-    <img src="la.jpg" alt="Los Angeles" width="1100" height="500">
+    <img src="{{asset('imagenes/carousel.jpg')}}" alt="Los Angeles" width="1100" height="500">
     <div class="carousel-caption">
       <h3>Los Angeles</h3>
       <p>We had such a great time in LA!</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img src="chicago.jpg" alt="Chicago" width="1100" height="500">
+    <img src="imagenes/carousel1.jpg" alt="Chicago" width="1100" height="500">
     <div class="carousel-caption">
       <h3>Chicago</h3>
       <p>Thank you, Chicago!</p>
     </div>
   </div>
   <div class="carousel-item">
-    <img src="ny.jpg" alt="New York" width="1100" height="500">
+    <img src="imagenes/carousel2.jpg" alt="New York" width="1100" height="500">
     <div class="carousel-caption">
       <h3>New York</h3>
       <p>We love the Big Apple!</p>
@@ -56,7 +56,7 @@
       </p>
     </div>
     <div  class="col-sm-12 col-md-6 col-lg-6 ">
-      <img src="img_avatar1.png" class="float-right" style="width:100%; ">
+      <img src="imagenes/img_avatar1.png" class="float-right" style="width:100%; ">
     </div>
 </div>
 <div class="row" style="padding:100px;background-image: url('fondo.jpg');" >
@@ -65,7 +65,7 @@
   </div>
   <div  class="col-sm-12 col-md-6 col-lg-3 " style="padding:10px;">
     <div class="card" >
-      <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+      <img class="card-img-top" src="imagenes/img_avatar1.png" alt="Card image" style="width:100%">
       <div class="card-body">
         <h4 class="card-title">Guillermo Torrijos</h4>
         <p class="card-text">Some example text some example text. you are an teacher and a peroson</p>
@@ -74,7 +74,7 @@
   </div>
   <div  class="col-sm-12 col-md-6 col-lg-3 " style="padding:10px;">
     <div class="card" >
-      <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+      <img class="card-img-top" src="imagenes/img_avatar1.png" alt="Card image" style="width:100%">
       <div class="card-body">
         <h4 class="card-title">Guillermo Torrijos</h4>
         <p class="card-text">Some example text some example text. you are an teacher and a peroson</p>
@@ -83,7 +83,7 @@
   </div>
   <div  class="col-sm-12 col-md-6 col-lg-3" style="padding:10px;">
     <div class="card" >
-      <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+      <img class="card-img-top" src="imagenes/img_avatar1.png" alt="Card image" style="width:100%">
       <div class="card-body">
         <h4 class="card-title">Guillermo Torrijos</h4>
         <p class="card-text">Some example text some example text. you are an teacher and a peroson</p>
@@ -92,7 +92,7 @@
   </div>
   <div  class="col-sm-12 col-md-6 col-lg-3" style="padding:10px;">
     <div class="card" >
-      <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:100%">
+      <img class="card-img-top" src="imagenes/img_avatar1.png" alt="Card image" style="width:100%">
       <div class="card-body">
         <h4 class="card-title">Guillermo Torrijos</h4>
         <p class="card-text">Some example text some example text. you are an teacher and a peroson</p>
