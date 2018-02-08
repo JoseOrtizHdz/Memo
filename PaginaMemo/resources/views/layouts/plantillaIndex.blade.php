@@ -30,7 +30,7 @@
       <nav class="navbar navbar-expand-sm navbar-dark color-menu">
         <div class="container">
        <!-- Brand -->
-       <a class="navbar-brand"  href="{{ url('/') }}">Memo Torrijos</a>
+       <a class="navbar-brand"  href="{{ url('/') }}">MemoTorrijos</a>
        <div class="navbar-header">
 
                 <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -50,10 +50,10 @@
                <!-- Dropdown -->
                <li class="nav-item dropdown">
                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                   Sesion
+                   Sesión
                  </a>
                  <div class="dropdown-menu">
-                   <a class="dropdown-item" href="{{ url('/login') }}">Login</a>
+                   <a class="dropdown-item" href="{{ url('/login') }}">Iniciar sesión</a>
                  </div>
                </li>
              </ul>
